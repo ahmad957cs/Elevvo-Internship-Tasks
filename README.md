@@ -1,14 +1,16 @@
-# Elevvo ML Internship – Production-Level Machine Learning & Deep Learning Systems
+# Elevvo ML Internship – Integrated AI System Dashboard
 
-This repository contains five end-to-end Machine Learning and Deep Learning projects developed during the Elevvo Internship.
+This repository contains five end-to-end Machine Learning and Deep Learning systems developed during the Elevvo Internship.
 
-Unlike basic academic implementations, each project is built using a production-style architecture that includes structured data pipelines, modular preprocessing, model training workflows, evaluation, inference, and interactive Streamlit deployment.
+Instead of building isolated notebook-based models, all projects are integrated into a single interactive Streamlit dashboard that simulates a production-style AI platform.
 
-The goal of this repository is not just model training, but building deployable ML systems following industry standards.
+The objective is to demonstrate real-world ML engineering practices including modular architecture, reusable pipelines, model persistence, evaluation workflows, and user-facing deployment.
 
 ---
 
-## 🔥 Projects Included
+## 🚀 Integrated Projects
+
+The dashboard includes:
 
 1. Forest Cover Type Classification (Multi-class Classification)
 2. Loan Approval Prediction (Imbalanced Binary Classification)
@@ -16,67 +18,58 @@ The goal of this repository is not just model training, but building deployable 
 4. Sales Forecasting (Time Series Regression)
 5. Traffic Sign Recognition (Deep Learning – CNN with Transfer Learning)
 
+Each module is independently developed but integrated into one centralized AI application.
+
 ---
 
-## 🏗 Architecture Design (Applied to All Projects)
+## 🏗 System Architecture
 
-Each project follows a standardized ML system design:
+All projects follow a standardized engineering workflow:
 
 1. Data Pipeline
-2. Preprocessing Module (ColumnTransformer + Pipeline)
+2. Preprocessing Module (ColumnTransformer + sklearn Pipeline)
 3. Model Training Module
 4. Evaluation Module
 5. Inference for New Data
-6. Model Persistence using joblib / model checkpoints
-7. Interactive Streamlit UI for deployment
+6. Model Persistence (joblib / model checkpoints)
+7. Integration into Master Streamlit Dashboard
 
 ---
 
-## 🧠 ML Engineering Techniques Used
+## 🧠 Machine Learning Engineering Practices
 
 - Scikit-learn Pipelines
 - ColumnTransformer
 - Cross-Validation
 - GridSearchCV Hyperparameter Tuning
-- Feature Engineering
 - SMOTE for Imbalanced Data
-- XGBoost / Tree-Based Models
-- Model Serialization with joblib
+- XGBoost & Tree-Based Models
+- Feature Engineering
+- Model Serialization
 
 ---
 
-## 🤖 Deep Learning Techniques Used
+## 🤖 Deep Learning Engineering Practices
 
 - Transfer Learning (MobileNet)
 - EarlyStopping
 - ModelCheckpoint
 - CNN Architecture
-- Training Curve Visualization
 - Image Preprocessing & Augmentation
+- Training Curve Visualization
 
 ---
 
-## 🖥 Deployment
+## 🖥 Interactive Dashboard
 
-Each project includes a Streamlit application that allows:
+The Streamlit dashboard allows:
 
-- User interaction
-- Real-time predictions
+- Real-time user interaction
+- Model inference on new inputs
 - Visualization of results
-- Model explanation (where applicable)
+- Integrated AI modules in one interface
 
-Deployment-ready structure for Streamlit Cloud / Render.
-
----
-
-## 🎯 Objective
-
-To demonstrate practical ML engineering skills beyond notebook experimentation by:
-
-- Writing modular code
-- Following production-like architecture
-- Deploying usable ML applications
-- Applying both classical ML and Deep Learning approaches
+This structure simulates how multiple ML services can be unified into a single AI product.
 
 ---
 
@@ -89,12 +82,17 @@ Scikit-learn
 XGBoost  
 TensorFlow / Keras  
 Matplotlib  
-Seaborn  
 Streamlit  
 
 ---
 
-## 📌 Author
+## 🎯 Purpose
+
+To move beyond academic notebooks and build production-oriented, deployable ML systems using structured architecture and industry best practices.
+
+---
+
+## 👤 Author
 
 Ahmad Gul  
-Machine Learning Enthusiast | Applied AI | Production-Oriented ML Development
+Machine Learning | Deep Learning | Applied AI Systems
